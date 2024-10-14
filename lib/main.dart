@@ -8,7 +8,7 @@ void main() async {
   // Ensure Flutter is initialized
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Load the .env file
+  // Put Your API key in this file
   await dotenv.load(fileName: ".env");
 
   // Initialize FFI for Windows
